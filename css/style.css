@@ -738,12 +738,14 @@ p {
 .portfolio-item p {
     font-size: 16px;
     line-height: 16px;
-    margin: 24px 0 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
     color: #1E1E1E;
 }
 
 .portfolio-item img {
     border-radius: 8px;
+    margin: auto;
     /* width: 100%; */
 }
 
