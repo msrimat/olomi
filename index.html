@@ -50,7 +50,7 @@
 <![endif]-->
 </head>
 
-<body>
+<body onLoad="redirectHome();">
 
 	<div class="splash-screen">
 		<div class="splash-content">
@@ -70,6 +70,11 @@
 	<script src="js/aos.js"></script>
 	<script src="js/ofi.min.js"></script>
 	<script src="js/script.js"></script>
+	<script>
+		function redirectHome() {
+		  location.replace("home.html")
+		}
+	</script>
 </body>
 
 </html>
